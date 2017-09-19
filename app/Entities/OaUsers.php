@@ -14,7 +14,7 @@ class OaUsers extends Model
 
 //        $startId = 1;
 //        $endId = 1500;
-        $startId = 3489;
+        $startId = 1;
         $endId = 5500;
 
         set_time_limit(0);

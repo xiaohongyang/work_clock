@@ -12,8 +12,9 @@ class WorkClockController extends Controller
 
         $workClock = new WorkClock();
 
-        $startDate = $request->get('startdate', '2016-07-01');
-        $endDate = $request->get('enddate', '2016-07-30');
+        $startDate = $request->get('startDate', '2017-07-01');
+        $endDate = $request->get('endDate', '2017-07-30');
+
 
         $rs = $workClock->getDataForDateRange($startDate, $endDate);
         //print_r($rs);
